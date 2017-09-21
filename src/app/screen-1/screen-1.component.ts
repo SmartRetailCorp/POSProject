@@ -9,7 +9,10 @@ export class Screen1Component implements OnInit {
 
   constructor() { }
 
-  ngOnInit() {
+  ngOnInit() { }
+
+  startButton(e) {
+    console.log('Started...', e)
   }
 
 }
